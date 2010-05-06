@@ -40,13 +40,7 @@ body{
 }
 
 
- .lateral{
-     list-style: none;
-    align-items: center;
-    display: flex;
 
-    
-}
  
 .tamaño img{
     max-width: 10;
@@ -113,3 +107,22 @@ padding-left: 5px;
     color: rgb(253, 235, 133);
     font-size: 50px;
 }
+
+
+.desplegar{
+    border: none;
+    padding: .5rem 1rem;
+    background: #d90e52;
+    background-color: cadetblue;
+    cursor: pointer;
+  }
+  
+  .borde{
+  border-style: solid;
+  border-color: #d90e52;
+  }
+  .borde-verde{
+    border-style: solid;
+  border-color: #15d90e;
+  }
+  

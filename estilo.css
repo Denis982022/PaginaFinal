@@ -1,0 +1,37 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    
+    max-width: 80;
+}
+
+.lateral img{
+    max-width: 80;
+   max-height: 50;
+    
+  
+}
+.lateral{
+    display: flex;
+    flex-direction: row-reverse;
+}
+ul{
+    list-style: none;
+}
+ul{
+   
+    
+    }
+ .menu{
+     align-items: center;
+     
+    
+    background-color:cadetblue;
+    padding: 40;
+    
+}

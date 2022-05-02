@@ -6,7 +6,9 @@
     
 }
 body{
-    background-color: rgb(165, 165, 165);
+    
+    background-image:url("fondo1.jpg");
+    
 }
 .lateral img{
    
@@ -34,6 +36,7 @@ body{
     background-image: url(logo.png);
     background-size:cover;
     
+    
 }
 ul{
     list-style: none;
@@ -57,3 +60,24 @@ ul{
     max-width: 10;
    
 }
+button{
+    background-color: transparent;
+}
+.foro-bicicletas{
+    display: flex;
+    font-weight: bold;
+    
+}
+
+.img-foro{
+    padding: 10px 10px 10px 10px;;
+    height: 140px;
+    align-items: center;
+    width: 200px;
+    object-fit: cover;
+   
+}
+.precio{
+    color: gold;
+}
+

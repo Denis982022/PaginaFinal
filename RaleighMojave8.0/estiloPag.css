@@ -37,8 +37,8 @@ image-resolution:calc(1000);
 }
 .menu{
     background-image: url(fondo1.jpg);
-    background-size: cover;
-   
+    background-size:cover;
+    
     
 }
 ul{
@@ -52,13 +52,36 @@ ul{
     
 }
  .menu{
-     
      align-items: center;
      padding-bottom: 450px;
     
     background-color:cadetblue;
    
     
+}
+.tamaño img{
+    max-width: 10;
+   
+}
+button{
+    background-color: transparent;
+    box-shadow: 0px, 12px, 16px;
+}
+.foro-bicicletas{
+    display: flex;
+    font-weight: bold;
+    
+}
 
-
+.img-foro{
+    padding: 10px 10px 10px 10px;;
+    height: 140px;
+    align-items: center;
+    width: 200px;
+    object-fit: cover;
+   
+}
+.precio{
+    color: rgb(253, 235, 133);
+}
 

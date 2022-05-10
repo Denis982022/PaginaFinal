@@ -37,6 +37,7 @@ image-resolution:calc(1000);
 }
 .menu{
     background-image: url(fondo1.jpg);
+    object-fit: cover;
     background-size:cover;
     
     

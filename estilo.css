@@ -32,6 +32,7 @@ body{
     padding: 1px 20px 20px 20px;
     color: rgb(251, 255, 0);
     font-weight: bold;
+    cursor: pointer;
 }
 
 .menu{
@@ -76,12 +77,14 @@ button{
     box-shadow: 0px, 12px, 16px;
 }
 .foro-bicicletas{
-    
+   
     display: flex;
     font-weight: bold;
     
 }
-
+.pulsor{
+    cursor: pointer;
+}
 .img-foro{
     padding: 10px 10px 10px 10px;;
     height: 140px;

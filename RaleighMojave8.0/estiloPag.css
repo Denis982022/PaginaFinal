@@ -8,8 +8,9 @@
 body{
     
     background-image:url("pexels-karolina-grabowska-5202288.jpg");
-image-resolution:calc(1000);
+    image-resolution:calc(1000);
     object-fit: cover;
+    overflow: scroll;
 }
 
 .lateral img{
@@ -30,58 +31,58 @@ image-resolution:calc(1000);
 
 .menu{
     padding: 10px 10px 10px 10px;
-    
+    background-size:cover;
     justify-content: space-between;
     display: flex;
-  
-}
-.menu{
-    background-image: url(fondo1-cortado.jpg);
-    background-size:cover;
+    background-image: url(fondo1.jpg);
     
-    
-}
-ul{
-    list-style: none;
 }
 
+
  .lateral{
+     list-style: none;
     align-items: center;
     display: flex;
 
     
 }
- .menu{
-     align-items: center;
-     padding-bottom: 450px;
-    
-    background-color:cadetblue;
-   
-    
-}
+ 
 .tamaño img{
     max-width: 10;
    
 }
-button{
-    background-color: transparent;
-    box-shadow: 0px, 12px, 16px;
-}
-.foro-bicicletas{
-    display: flex;
-    font-weight: bold;
+
+
+.foro-raleigh{
+    margin-top: 40;
+
+font-weight: bold;
+    text-align: center;
     
 }
 
 .img-foro{
-    padding: 10px 10px 10px 10px;;
-    height: 140px;
+    background-image: auto;
+    
     align-items: center;
-    width: 200px;
+  
     object-fit: cover;
    
 }
 .precio{
     color: rgb(253, 235, 133);
+}
+ul{
+    list-style: circle;
+}
+.Bloque-Caracteristicas{
+   background-color: beige;
+   margin: 20;
+   border-style: groove;
+}
+
+.Especificaciones li{
+    list-style: circle; list-style: circle;
+    padding: 5% 5% 1%;
 }
 

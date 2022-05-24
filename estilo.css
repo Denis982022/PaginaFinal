@@ -7,7 +7,7 @@
 }
 body{
     
-    background-image: url("asfalto2.jpg");
+    background-image: url("imgs/asfalto2.jpg");
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ body{
   
 }
 .menu{
-    background-image: url(fondo1.jpg);
+    background-image: url(imgs/fondo1.jpg);
     object-fit: cover;
     background-size:cover;
     

@@ -3,7 +3,7 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-    
+    font-family:sans-serif;
 }
 body{
     
@@ -55,41 +55,61 @@ body{
 
 
 .foro-raleigh{
-    margin-top: 40;
-
-font-weight: bold;
+    padding: 20px 20px;
+    max-width: auto;
+    max-height: auto;
+    font-weight: bold;
     text-align: center;
-    
+    align-items: center;
 }
 
 .img-foro{
     background-image: auto;
-    
+    height: 55%;
+    width: 55%;
     align-items: center;
-  
+   
+    padding-top: 20px;
+    padding-bottom: 5px;
     object-fit: cover;
    
 }
-.precio{
-    color: rgb(253, 235, 133);
-}
-ul{
-    list-style: circle;
+
+ul li{
+    list-style-type: none;
 }
 .Bloque-Caracteristicas{
    background-color: beige;
    margin: 20;
    border-style: groove;
+padding-top: 3px;
+padding-left: 5px;
 }
 
 .Especificaciones li{
-    list-style: circle; list-style: circle;
-    padding: 5% 5% 1%;
+    
+    padding: 3% 3% 1%;
 }
 
 .Carrousel{
-    max-width: 50px;
-    flex-grow: initial;
+    justify-content: center;
+    object-fit: fill;
     display: flex;
-    align-items: center;
+    align-items:center;
+}
+.title{
+    font-size: larger;
+    font-style: oblique;
+}
+.titulo-bici{
+    font-size: 30px;
+    font-style: inherit;
+    color: darkcyan;
+}
+.epigrafe{
+    font-size: 16px;
+}
+.precio{
+    color: rgb(253, 235, 133);
+    font-size: 50px;
 }

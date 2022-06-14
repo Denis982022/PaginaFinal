@@ -6,7 +6,7 @@ function enviar(e){
   }
 return false;
   }
-  
+ 
   function Mostrar() {
     let div = document.getElementById("ocul");
     div.removeAttribute("style");
@@ -19,6 +19,7 @@ return false;
     let f_telefono=document.querySelector("#f_telefono");
     let f_correo=document.querySelector("#f_correo");
     let f_tarjeta=document.querySelector("#f_tarjeta");
+   
   let errores= [];
 
   let num=  /^[0-9]+$/;
@@ -64,7 +65,9 @@ return false;
       f_correo.classList.remove("borde");
       f_correo.classList.remove("borde-verde");
   }
+  console.log(f_tarjeta.value);
  let visa = /^4\d{3}-?\d{4}-?\d{4}-?\d{4}$/;
+ let mastercard = /^5[1-5]\d{2}-?\d{4}-?\d{4}-?\d{4}$/;
  if(f_tarjeta.value.trim() ==""){
   errores.push("Edad no puede estar vacia");
   f_tarjeta.classList.add("borde");
@@ -124,7 +127,8 @@ images[4] = "imgs-raleigh/raleigh_4.jpg";
   if(rand1 > 4){
     rand1 = 1;
 }   
-setTimeout("camAvanzar()", 7000)
+setTimeout("camAvanzar()", 7000);
 document.miimagen.src= images[rand1];
+
 }
-rand1 = setTimeout("camAvanzar()", 7000)
+rand1 = setTimeout("camAvanzar()", 7000);

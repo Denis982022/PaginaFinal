@@ -24,41 +24,48 @@
         <p class="epigrafe">RODADO 29</p>
         
         <p class="precio"> $351.328</p>
-    </div>   
-    <button id="desplegar" onclick="Mostrar()">Comprar</button>
-    
-        <div id="ocul" style="visibility: hidden;">
+    </div>
+   
+<div class="for" >
+
+    <button class="butoncom" onclick="Mostrar()">Comprar</button>
+        
+    <div   id="ocul" style="visibility: hidden;">
             
 
-            <p> Llenar datos para la Compra </p>
+            <p class="for-titulo"> Llenar datos para la Compra: </p>
             
             <form onsubmit="return enviar(event)" id="frm" name="frm">
-            <label> Nombre completo</label> <br/>
-            <input id="f_nombre" name ="f_nombre" /> <br/>
-            <label> telefono </label> <br/>
-        
-            <input id="f_telefono" name ="f_telefono" /> <br/>
-            <label> Correo </label> <br/>
-            <input type="email" id="f_correo" name ="f_correo" /> <br/>
-            <label> Elegir Tarjeta: </label>
-            <p><select name="tarjeta" id="tarjeta">
+            <p><label> Nombre completo</label> </p>
+            <input id="f_nombre" name ="f_nombre" /> </p>
+            <p><label> Telefono </label></p>
+            <p> <input id="f_telefono" name ="f_telefono" /> </p>
+            <p><label> Correo </label> </p>
+                <p><input type="email" id="f_correo" name ="f_correo" /></p> 
+          <label> Elegir Tarjeta: </label>
+            <select name="tarjeta" id="tarjeta">
                     <option value="visa">Visa</option>
-            </select></p>
+                    <option value="visa">Mastercard</option>
+                </select>
+                
+               <p> <label> Numero de tarjeta </label> </p>
+                <p> <input id="f_tarjeta" name ="f_tarjeta" /></p>
+                
+                <button id="my8th"> Enviar </button>
 
-            <label> numero de tarjeta </label> <br/>
-            <input id="f_tarjeta" name ="f_tarjeta" /> <br/>
-            
-            <button id="my8th"> Enviar </button>
-        </form>
-        <ul id="ItaErrores">
+                <ul id="ItaErrores">
 
-        </ul> 
-    </div>                                                
+            </form>
+        </div>   
+
+    </ul> 
+                                                   
             <p id="demo"> </p>  
         </div>
     
+        
         <div class="Bloque-Caracteristicas">
-
+            
             <h2> Especificaciones Tecnicas: </h2>
 
             <ul class="Especificaciones">

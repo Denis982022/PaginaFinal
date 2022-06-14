@@ -15,19 +15,20 @@ body{
 }
 
 .lateral img{
-   
     max-width: 80;
    max-height: 50;
    padding: 10px 10px 10px 10px;
-   
-  
 }
 
 .logo{
-    font-size: 25px;
-    padding: 1px 20px 20px 20px;
+    background-color: rgba(0, 77, 23, 0.7);;
+    font-size: 24px;
+    text-align: center;
+    border-style:double;
+    padding: 4px;
     color: rgb(251, 255, 0);
-    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
 }
 
 .menu{
@@ -38,16 +39,11 @@ body{
     background-image: url(imgs-raleigh/fondo1.jpg);
     background-blend-mode: darken;
 }
-
-
-
- 
 .tamaño img{
-    max-width: 10;
-   
+    max-width: 10;  
 }
 
-
+/* Estilo imagen, titulo y carrousel de la bici*/  
 .foro-raleigh{
     padding: 20px 20px;
     max-width: auto;
@@ -56,22 +52,113 @@ body{
     text-align: center;
     align-items: center;
 }
-
+.titulo-bici{
+    font-size: 30px;
+    font-style: inherit;
+    color: darkcyan;
+}
+.Carrousel{
+    justify-content: center;
+    object-fit: fill;
+    display: flex;
+    align-items:center;
+}
 .img-foro{
     background-image: auto;
     height: 55%;
     width: 55%;
     align-items: center;
-   
     padding-top: 20px;
     padding-bottom: 5px;
     object-fit: cover;
-   
+}
+.epigrafe{
+    font-size: 16px;
+    font-weight: 800;
+}
+.precio{
+    color: rgb(253, 235, 133);
+    font-size: 50px;
+}
+/* Fin del Estilo */ 
+
+
+
+/* Estilo de formulario*/
+.butoncom{
+    
+    font-size: 20px;
+    background-color: rgba(0, 255, 179, 0.5);
+    padding: 5px 5px;
+    width: 110px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+}
+  .for-titulo, form{
+    background-color: rgba(49, 158, 82, 0.5);
+    padding:  10px 10px;
+    margin: 1 auto;
+    width: 430px;
+    text-align: center;
+    font-size:29px;
+    border-style:ridge;
+}
+.for-titulo{
+    background-color: rgba(14, 107, 14, 0.774);  
+    font-size: large;
+    color: azure;
+    font-weight: 800;
+    border-style: outset;
+    font-size:35px;
 }
 
-ul li{
-    list-style-type: none;
+
+select{
+    padding: 3px 1px;
+    font-size: 20px;
 }
+label{
+    padding-top: 40px;
+}
+input, label{
+   
+    margin: 5px;
+    padding: 7px 38px;
+}
+
+/* Estilo bordes ClassLlist */ 
+.borde{
+    border-style: solid;
+    border-color: #d90e52;
+    }
+    .borde-verde{
+      border-style: solid;
+    border-color: #15d90e;
+    }
+
+    .ocultar{
+        visibility: hidden;
+    }
+ /* fin estilor */ 
+
+#my8th {
+    margin: 20px;
+    font-size: 24px;
+    background-color: rgba(0, 217, 255, 0.5);
+    padding: 7px 18px;
+}
+#ItaErrores{
+    font-weight: 500;
+    color: #d90e52;
+    margin: 2px;
+}
+ /* FIN Estilo */ 
+
+ 
+
+ /* Estilo de Caracteristicas*/
+
 .Bloque-Caracteristicas{
    background-color: beige;
    margin: 20;
@@ -85,44 +172,18 @@ padding-left: 5px;
     padding: 3% 3% 1%;
 }
 
-.Carrousel{
-    justify-content: center;
-    object-fit: fill;
-    display: flex;
-    align-items:center;
-}
+
 .title{
     font-size: larger;
     font-style: oblique;
 }
-.titulo-bici{
-    font-size: 30px;
-    font-style: inherit;
-    color: darkcyan;
-}
-.epigrafe{
-    font-size: 16px;
-}
-.precio{
-    color: rgb(253, 235, 133);
-    font-size: 50px;
+
+ul li{
+    padding: 10px 10px;
+    list-style-type: none;
 }
 
+/* Fin estilo*/
+  
 
-.desplegar{
-    border: none;
-    padding: .5rem 1rem;
-    background: #d90e52;
-    background-color: cadetblue;
-    cursor: pointer;
-  }
-  
-  .borde{
-  border-style: solid;
-  border-color: #d90e52;
-  }
-  .borde-verde{
-    border-style: solid;
-  border-color: #15d90e;
-  }
-  
+ 
